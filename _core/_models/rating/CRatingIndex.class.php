@@ -6,7 +6,12 @@
  * Time: 21:31
  * To change this template use File | Settings | File Templates.
  */
-class CRatingIndex extends CActiveModel {  // наследуется от класса CactivModel
+
+/** 
+ * следующий класс наследуется 
+ * от класса CActiveModel
+ * /
+class CRatingIndex extends CActiveModel {  
     protected $_table = TABLE_RATING_INDEXES;
     protected $_year = null;
     private $_indexValues = null;
