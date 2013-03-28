@@ -10,7 +10,7 @@
 /** 
  * следующий класс наследуется 
  * от класса CActiveModel
- */
+ * /
 class CRatingIndex extends CActiveModel {  
     protected $_table = TABLE_RATING_INDEXES;
     protected $_year = null;
